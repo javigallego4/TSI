@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+repositories/https\:__download.eclipse.org_oomph_products_repository/enabled=true
+repositories/https\:__download.eclipse.org_oomph_products_repository/isSystem=false
+repositories/https\:__download.eclipse.org_oomph_products_repository/name=Eclipse Installer Build 5396
+repositories/https\:__download.eclipse.org_oomph_products_repository/suffix=content.xml.xz
+repositories/https\:__download.eclipse.org_oomph_products_repository/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/https\:__download.eclipse.org_oomph_products_repository/uri=https\://download.eclipse.org/oomph/products/repository
+repositories/https\:__download.eclipse.org_oomph_products_repository/version=1.0.0

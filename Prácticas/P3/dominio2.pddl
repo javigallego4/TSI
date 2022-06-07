@@ -112,7 +112,7 @@
     ;        edificios en la misma localización.
     ;        ▪ Parámetros: Unidad, Edificio, Localización, Recurso
     (:action construir
-        :parameters (?unidad - unidad ?loc - localizacion ?rec - recurso ?edif - edificio)
+        :parameters (?unidad - unidad ?edif - edificio ?loc - localizacion ?rec - recurso)
         ; Las precondiciones que tendré en cuenta serán: 
         ;   1.- La unidad ha de estar libre
         ;   2.- La localización en la que se encuentra la unidad tiene que ser aquella en la que se quiere construir el edificio

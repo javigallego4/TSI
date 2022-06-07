@@ -76,7 +76,7 @@
     ;       un edificio en la misma localización.
     ;        ▪ Parámetros: Unidad, Edificio, Localización
     (:action construir
-        :parameters (?unidad - unidad ?loc - localizacion ?edif - edificio)
+        :parameters (?unidad - unidad ?edif - edificio ?loc - localizacion)
         ; Las precondiciones que tendré en cuenta serán: 
         ;   1.- La unidad ha de estar libre
         ;   2.- La localización en la que se encuentra la unidad tiene que ser aquella en la que se quiere construir el edificio

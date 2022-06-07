@@ -1,0 +1,97 @@
+
+ff: parsing domain file
+domain 'EJ8' defined
+ ... done.
+ff: parsing problem file
+problem 'EJ8' defined
+ ... done.
+
+
+metric established (normalized to minimize): ((1.00*[RF0](TIEMPOACCIONES)) - () + 0.00)
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is  best-first on 1*g(s) + 1*h(s) where
+    metric is ((1.00*[RF0](TIEMPOACCIONES)) - () + 0.00)
+
+advancing to distance:   26
+                         24
+                         20
+                         19
+                         18
+                         17
+                         16
+                         15
+                         13
+                         12
+                         11
+                         10
+                          9
+                          8
+                          7
+                          6
+                          5
+                          4
+                          3
+                          2
+                          1
+                          0
+
+ff: found legal plan as follows
+
+step    0: NAVEGAR VCE1 LOC11 LOC12
+        1: NAVEGAR VCE1 LOC12 LOC22
+        2: ASIGNAR VCE1 LOC22 MINERAL
+        3: RECOLECTAR MINERAL LOC22
+        4: RECOLECTAR MINERAL LOC22
+        5: RECOLECTAR MINERAL LOC22
+        6: RECOLECTAR MINERAL LOC22
+        7: RECLUTAR CENTRODEMANDO1 VCE2 LOC11
+        8: RECLUTAR CENTRODEMANDO1 VCE3 LOC11
+        9: NAVEGAR VCE2 LOC11 LOC21
+       10: NAVEGAR VCE3 LOC11 LOC12
+       11: NAVEGAR VCE3 LOC12 LOC22
+       12: NAVEGAR VCE3 LOC22 LOC23
+       13: NAVEGAR VCE3 LOC23 LOC33
+       14: NAVEGAR VCE3 LOC33 LOC34
+       15: NAVEGAR VCE2 LOC21 LOC31
+       16: NAVEGAR VCE3 LOC34 LOC44
+       17: CONSTRUIREDIFICIO VCE3 EXTRACTOR1 LOC44
+       18: ASIGNAR VCE3 LOC44 GASVESPENO
+       19: RECOLECTAR GASVESPENO LOC44
+       20: RECOLECTAR GASVESPENO LOC44
+       21: RECOLECTAR MINERAL LOC22
+       22: NAVEGAR VCE2 LOC31 LOC32
+       23: CONSTRUIREDIFICIO VCE2 BARRACON1 LOC32
+       24: RECOLECTAR GASVESPENO LOC44
+       25: RECOLECTAR MINERAL LOC22
+       26: RECOLECTAR MINERAL LOC22
+       27: RECLUTAR BARRACON1 MARINE2 LOC32
+       28: NAVEGAR MARINE2 LOC32 LOC22
+       29: RECOLECTAR GASVESPENO LOC44
+       30: NAVEGAR MARINE2 LOC22 LOC23
+       31: NAVEGAR MARINE2 LOC23 LOC33
+       32: NAVEGAR MARINE2 LOC33 LOC34
+       33: RECLUTAR BARRACON1 MARINE1 LOC32
+       34: NAVEGAR MARINE1 LOC32 LOC31
+       35: ASIGNAR VCE2 LOC32 MINERAL
+       36: RECOLECTAR GASVESPENO LOC44
+       37: RECOLECTAR GASVESPENO LOC44
+       38: RECOLECTAR GASVESPENO LOC44
+       39: RECOLECTAR MINERAL LOC22
+       40: RECOLECTAR MINERAL LOC22
+       41: RECOLECTAR MINERAL LOC22
+       42: RECLUTAR BARRACON1 SOLDADO1 LOC32
+       43: NAVEGAR SOLDADO1 LOC32 LOC22
+       44: NAVEGAR SOLDADO1 LOC22 LOC12
+       45: NAVEGAR MARINE2 LOC34 LOC24
+     
+
+time spent:    0.03 seconds instantiating 255 easy, 1691 hard action templates
+               0.00 seconds reachability analysis, yielding 341 facts and 1154 actions
+               0.00 seconds creating final representation with 242 relevant facts, 20 relevant fluents
+               0.01 seconds computing LNF
+               0.00 seconds building connectivity graph
+              20.97 seconds searching, evaluating 103537 states, to a max depth of 0
+              21.01 seconds total time
+
